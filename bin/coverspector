@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+use Coverspector\Coverspector;
+
+require __DIR__.'/../src/Coverspector.php';
+
+$options = getopt('', ['file:', 'min:']);
+
+$checker = new Coverspector(file_get_contents($options['file']));
+$minCoverage = (float)$options['min'];
+$currentCoverage = $checker->getCoverage();
+if ($currentCoverage < $minCoverage) {
+    echo "Current coverage: $currentCoverage\n";
+    echo "Minimum coverage: $minCoverage\n";
+    echo "Uncovered files:\n";
+    foreach ($checker->getUncovered() as $uncovered) {
+            echo "$uncovered\n";
+    }
+    exit(1);
+} else {
+    echo "Code coverage: $currentCoverage\n";
+}

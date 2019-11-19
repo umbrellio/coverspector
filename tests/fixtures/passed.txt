@@ -1,0 +1,32 @@
+Codeception PHP Testing Framework v3.1.2
+Powered by PHPUnit 8.4.1 by Sebastian Bergmann and contributors.
+Running with seed:
+
+
+Functional Tests (914) -------------------------------------
+✔ SomeTest: some name (11.81s)
+------------------------------------------------------------
+
+Unit Tests (1013) ------------------------------------------
+✔ SomeAnotherTest: test name (0.01s)
+------------------------------------------------------------
+
+
+Time: 9.81 minutes, Memory: 2.59 GB
+
+Tests: 1927, Assertions: 10094, Failures: 0.
+
+
+Code Coverage Report:
+  2019-11-03 13:59:12
+
+ Summary:
+  Classes: 100.00% (618/618)
+  Methods: 100.00% (1962/1962)
+  Lines:   100.00% (5586/5586)
+
+\App\Console::App\Console\Kernel
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
+Remote CodeCoverage reports are not printed to console
+
+HTML report generated in coverage
