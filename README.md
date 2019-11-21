@@ -37,6 +37,12 @@ vendor/bin/coverspector --file=coverage.txt --min=100
 ```
 If coverage will be less, coverspector will fail the job and print list of all not totaly covered files
 
+## CI Coverage Artifacts
+If you still want to save coverage report as CI artifact - you should set 
+```
+when: on_failure
+```
+in your CI config.
 
 ## License
 
