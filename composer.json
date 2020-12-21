@@ -16,10 +16,10 @@
     "bin": ["bin/coverspector"],
     "license": "MIT",
     "require": {
-        "php": "^7.2"
+        "php": "^7.2|^7.3|^7.4|^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.4",
+        "phpunit/phpunit": "^8.4|^9.0",
         "php-coveralls/php-coveralls": "^2.1",
         "umbrellio/code-style-php": "^1.0"
     },
