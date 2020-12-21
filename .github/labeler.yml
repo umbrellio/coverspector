@@ -1,0 +1,23 @@
+type:build:
+  - ".github/**"
+  - ".coveralls.yml"
+  - "phpunit.github.xml"
+  - ".gitignore"
+  - "ecs.yml"
+  - "composer.json"
+  - "composer.lock"
+
+type:command:
+  - "bin/*"
+
+type:common:
+  - "src/**/*"
+
+type:tests:
+  - any: ['tests/**/*', 'phpunit.xml.dist', 'tests.sh']
+
+theme:docs:
+  - "README.md"
+  - "LICENSE"
+  - "CONTRIBUTING.md"
+  - "CODE_OF_CONDUCT.md"

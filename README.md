@@ -1,7 +1,9 @@
 # Coverspector
 
-[![Build Status](https://travis-ci.org/umbrellio/coverspector.svg?branch=master)](https://travis-ci.org/umbrellio/coverspector)
+[![Github Status](https://github.com/umbrellio/coverspector/workflows/CI/badge.svg)](https://github.com/umbrellio/coverspector/actions)
 [![Coverage Status](https://coveralls.io/repos/github/umbrellio/coverspector/badge.svg?branch=master)](https://coveralls.io/github/umbrellio/coverspector?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/umbrellio/coverspector/v/stable.png)](https://packagist.org/packages/umbrellio/coverspector)
+[![Total Downloads](https://poser.pugx.org/umbrellio/coverspector/downloads.png)](https://packagist.org/packages/umbrellio/coverspector)
 
 This package helps to check that code coverage above minimum value. It can be useful in CI or git hooks.
 
