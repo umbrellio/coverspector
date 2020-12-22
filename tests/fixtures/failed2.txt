@@ -30,9 +30,9 @@ Code Coverage Report:
   2019-11-03 13:59:12
 
  Summary:
-  Classes: 99.95% (600/618)
-  Methods: 99.99% (1800/1962)
-  Lines:   100.00% (5500/5586)
+  Classes: 99.99% (999/1000)
+  Methods: 99.99% (35000/35001)
+  Lines:   100.00% (49999/50000)
 
 \App\Console::App\Console\Kernel1
   Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)

@@ -22,7 +22,7 @@ class CoverspectorTest extends TestCase
     {
         yield 'standard' => [
             'file' => 'failed1.txt',
-            'coverage' => 99.92,
+            'coverage' => 99.92310580169065,
             'expected' => [
                 '\App\Console::App\Console\Kernel1
   Methods: 90.00% ( 0/ 1)   Lines: 88.92% (  1/  2)',
@@ -32,7 +32,7 @@ class CoverspectorTest extends TestCase
         ];
         yield 'rare' => [
             'file' => 'failed2.txt',
-            'coverage' => 95.76,
+            'coverage' => 99.96504764625772,
             'expected' => [],
         ];
     }

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-composer lint
+composer lint-fix
 php -d pcov.directory='.' vendor/bin/phpunit --coverage-html build
 

@@ -23,7 +23,7 @@ class Coverspector
             $totals += $metrics / $matches[3][$index];
         }
 
-        return round($totals / count($matches[2]) * 100, 2);
+        return $totals / count($matches[2]) * 100;
     }
 
     public function getUncovered(): array
