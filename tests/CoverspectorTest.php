@@ -28,7 +28,7 @@ class CoverspectorTest extends TestCase
   Methods: 90.00% ( 0/ 1)   Lines: 88.92% (  1/  2)',
                 '\App\Console::App\Console\Kernel3
   Methods: 100.00% ( 0/ 1)   Lines: 0.00% (  0/  2)',
-            ]
+            ],
         ];
         yield 'rare' => [
             'file' => 'failed2.txt',
