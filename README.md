@@ -4,6 +4,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/umbrellio/coverspector/badge.svg?branch=master)](https://coveralls.io/github/umbrellio/coverspector?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/umbrellio/coverspector/v/stable.png)](https://packagist.org/packages/umbrellio/coverspector)
 [![Total Downloads](https://poser.pugx.org/umbrellio/coverspector/downloads.png)](https://packagist.org/packages/umbrellio/coverspector)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/umbrellio/coverspector/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![Build Status](https://scrutinizer-ci.com/g/umbrellio/coverspector/badges/build.png?b=master)](https://scrutinizer-ci.com/g/umbrellio/coverspector/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/umbrellio/coverspector/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/umbrellio/coverspector/?branch=master)
 
 This package helps to check that code coverage above minimum value. It can be useful in CI or git hooks.
 
