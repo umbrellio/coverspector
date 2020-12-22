@@ -30,16 +30,16 @@ Code Coverage Report:
   2019-11-03 13:59:12
 
  Summary:
-  Classes: 100.00% (618/618)
-  Methods: 100.00% (1962/1962)
-  Lines:   88.92% (5586/5586)
+  Classes: 99.95% (617/618)
+  Methods: 99.99% (1961/1962)
+  Lines:   88.92% (5585/5586)
 
 \App\Console::App\Console\Kernel1
-  Methods: 100.00% ( 1/ 1)   Lines: 88.92% (  2/  2)
+  Methods: 90.00% ( 0/ 1)   Lines: 88.92% (  1/  2)
 \App\Console::App\Console\Kernel2
   Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
 \App\Console::App\Console\Kernel3
-  Methods: 100.00% ( 1/ 1)   Lines: 0.00% (  2/  2)
+  Methods: 100.00% ( 0/ 1)   Lines: 0.00% (  0/  2)
 Remote CodeCoverage reports are not printed to console
 
 HTML report generated in coverage

@@ -1,0 +1,45 @@
+Codeception PHP Testing Framework v3.1.2
+Powered by PHPUnit 8.4.1 by Sebastian Bergmann and contributors.
+Running with seed:
+
+
+Functional Tests (914) -------------------------------------
+✔ AclTest: Check not existed permission throws exception (11.81s)
+------------------------------------------------------------
+
+Unit Tests (1013) ------------------------------------------
+✔ DividerCalculatorTest: Calculator works (0.01s)
+------------------------------------------------------------
+
+
+Time: 9.81 minutes, Memory: 2.59 GB
+
+There was 1 failure:
+
+---------
+1) CashFlowCategoryResourceTest: Resource
+ Test  tests/functional/Dictionary/CashFlowCategory/Resources/CashFlowCategoryResourceTest.php:testResource
+Failed asserting that 9 is identical to 1.
+#1  /home/zloblin/PhpstormProjects/new-cr/tests/functional/Dictionary/CashFlowCategory/Resources/CashFlowCategoryResourceTest.php:40
+
+FAILURES!
+Tests: 1927, Assertions: 10094, Failures: 1.
+
+
+Code Coverage Report:
+  2019-11-03 13:59:12
+
+ Summary:
+  Classes: 99.95% (600/618)
+  Methods: 99.99% (1800/1962)
+  Lines:   100.00% (5500/5586)
+
+\App\Console::App\Console\Kernel1
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
+\App\Console::App\Console\Kernel2
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
+\App\Console::App\Console\Kernel3
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
+Remote CodeCoverage reports are not printed to console
+
+HTML report generated in coverage
