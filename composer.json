@@ -23,8 +23,8 @@
         "php-coveralls/php-coveralls": "^2.1",
         "umbrellio/code-style-php": "^1.0"
     },
-  "scripts": {
-    "lint": "ecs check --config=ecs.yml .",
-    "lint-fix": "ecs check --config=ecs.yml . --fix"
-  }
+    "scripts": {
+        "lint": "ecs check --config=ecs.yml .",
+        "lint-fix": "ecs check --config=ecs.yml . --fix"
+    }
 }

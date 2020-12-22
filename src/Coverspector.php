@@ -15,9 +15,15 @@ class Coverspector
 
     public function getCoverage(): float
     {
-        $regexp = '/^\s*Lines:\s*(\d+.\d+)\%/m';
-        preg_match($regexp, $this->report, $matches);
-        return (float) $matches[1];
+        $regexp = '/(Classes|Methods|Lines)\:\s+[\d]+\.[\d]+%\s+\(([\d]+)\/([\d]+)\)/m';
+        preg_match_all($regexp, $this->report, $matches);
+
+        $totals = 0;
+        foreach ($matches[2] as $index => $metrics) {
+            $totals += $metrics / $matches[3][$index];
+        }
+
+        return round($totals / count($matches[2]) * 100, 2);
     }
 
     public function getUncovered(): array
