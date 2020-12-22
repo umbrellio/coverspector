@@ -64,6 +64,7 @@ jobs:
         operating_system:
           - ubuntu-latest
         php_versions:
+          - '7.2'
           - '7.3'
           - '7.4'
           - '8.0'
@@ -107,7 +108,7 @@ jobs:
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COVERALLS_PARALLEL: true
-          COVERALLS_FLAG_NAME: php-${{ matrix.php-versions }}
+          COVERALLS_FLAG_NAME: php-${{ matrix.php_versions }}
         run: ./vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml -v
   coverage:
     needs: test

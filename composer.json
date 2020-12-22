@@ -2,6 +2,13 @@
     "name": "umbrellio/coverspector",
     "description": "This package helps to check that code coverage above minimum value. It can be useful in CI or git hooks.",
     "type": "library",
+    "keywords": [
+        "coverage",
+        "checker",
+        "clover",
+        "phpunit",
+        "php"
+    ],
     "authors": [
         {
             "name": "Zlob",
